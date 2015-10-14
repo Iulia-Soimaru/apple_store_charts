@@ -883,3 +883,1464 @@ Started GET "/assets/application.self-7b93c1d3ff9f875adce0fb48dcadb5c9ae4a654245
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-13 18:30:54 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 12:35:29 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:3: syntax error, unexpected tLABEL
+...l_downloads => 'desc'), status: :ok
+...                               ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:13: syntax error, unexpected tLABEL
+...l_downloads => 'desc'), status: :ok
+...                               ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:14: syntax error, unexpected tIVAR, expecting keyword_end
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:18: syntax error, unexpected tLABEL
+...l_downloads => 'desc'), status: :ok
+...                               ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:19: syntax error, unexpected tIVAR, expecting keyword_end
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:23: syntax error, unexpected tLABEL
+...l_downloads => 'desc'), status: :ok
+...                               ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:24: syntax error, unexpected tIVAR, expecting keyword_end):
+  app/controllers/mobile_apps_controller.rb:3: syntax error, unexpected tLABEL
+  app/controllers/mobile_apps_controller.rb:13: syntax error, unexpected tLABEL
+  app/controllers/mobile_apps_controller.rb:14: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:18: syntax error, unexpected tLABEL
+  app/controllers/mobile_apps_controller.rb:19: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:23: syntax error, unexpected tLABEL
+  app/controllers/mobile_apps_controller.rb:24: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (46.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:37:06 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:14: syntax error, unexpected tIVAR, expecting keyword_end
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:19: syntax error, unexpected tIVAR, expecting keyword_end
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:24: syntax error, unexpected tIVAR, expecting keyword_end):
+  app/controllers/mobile_apps_controller.rb:14: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:19: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:24: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:37:07 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:14: syntax error, unexpected tIVAR, expecting keyword_end
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:19: syntax error, unexpected tIVAR, expecting keyword_end
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:24: syntax error, unexpected tIVAR, expecting keyword_end):
+  app/controllers/mobile_apps_controller.rb:14: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:19: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:24: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:50 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (35.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (44.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:51 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:52 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:52 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:53 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (37.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (66.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:53 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:53 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:53 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:53 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (34.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:54 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:54 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (34.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:54 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (39.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:54 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (36.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:54 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (3.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:55 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (50.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (69.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:55 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:55 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.0ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (19.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (40.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:55 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (42.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (36.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:55 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:38:56 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:5: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:15: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:20: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:25: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:39:40 -0700
+
+SyntaxError (/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:6: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:16: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @paid_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:21: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @free_apps, status: :ok
+                           ^
+/Users/iuliasoimaru/Documents/after_dbc_projects/apple_store_charts/app/controllers/mobile_apps_controller.rb:26: syntax error, unexpected tIVAR, expecting keyword_end
+    render :json @all_apps, status: :ok
+                          ^):
+  app/controllers/mobile_apps_controller.rb:6: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:16: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:21: syntax error, unexpected tIVAR, expecting keyword_end
+  app/controllers/mobile_apps_controller.rb:26: syntax error, unexpected tIVAR, expecting keyword_end
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (38.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:41:37 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3012ms (Views: 2973.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:43:10 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 2656ms (Views: 2652.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:43:36 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 2706ms (Views: 2704.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:45:26 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 2583ms (Views: 2580.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:47:30 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 467ms (Views: 1.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:48:13 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3351ms (Views: 2230.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:51:18 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3225ms (Views: 2065.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:54:51 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3241ms (Views: 2074.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:56:56 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3165ms (Views: 2024.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:58:48 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3305ms (Views: 2120.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 12:59:48 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3474ms (Views: 2278.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:00:18 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3157ms (Views: 2069.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:01:44 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3385ms (Views: 2201.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:02:04 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1655ms (Views: 473.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:02:05 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1111ms (Views: 18.0ms)
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/assets/mobile_apps.self-1aa4e8f75031d8188cad995cbaa1262698fc57bf69123e4211310c184c5be9ac.js?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-10-14 13:02:07 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:03:37 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3276ms (Views: 2063.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:06:10 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3264ms (Views: 2149.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:07:15 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3240ms (Views: 2180.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:07:25 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3061ms (Views: 2078.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:07:47 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3097ms (Views: 1990.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:09:59 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3320ms (Views: 2220.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:12:03 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3776ms (Views: 2638.2ms)
+
+
+Started GET "/mobile_apps" for ::1 at 2015-10-14 13:12:59 -0700
+
+ActionController::RoutingError (No route matches [GET] "/mobile_apps"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (109.7ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (142.9ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/iuliasoimaru/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (39.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:14:43 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3096ms (Views: 2092.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:16:38 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3465ms (Views: 2416.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:19:23 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3338ms (Views: 2257.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:20:23 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3348ms (Views: 2126.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:22:30 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3171ms (Views: 2122.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:22:47 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3064ms (Views: 1971.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:23:10 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3239ms (Views: 1997.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:23:26 -0700
+Processing by MobileAppsController#index as HTML
+Completed 202 Accepted in 3272ms (Views: 2138.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:23:42 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3202ms (Views: 2014.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:26:33 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3351ms (Views: 2280.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:29:42 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3254ms (Views: 2153.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:30:49 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3604ms (Views: 2441.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:32:43 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1476ms (Views: 380.6ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/assets/mobile_apps.self-5c081de33ad97018e81ddfec568e0ba86896648d6ff60753cd06a570d4ba4c53.js?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:32:45 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:32:52 -0700
+Processing by MobileAppsController#index as JSON
+  Rendered mobile_apps/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1283ms (Views: 22.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:33:56 -0700
+Processing by MobileAppsController#index as HTML
+Completed 200 OK in 3466ms (Views: 2256.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:39:58 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 865ms (Views: 347.9ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/assets/mobile_apps.self-5c081de33ad97018e81ddfec568e0ba86896648d6ff60753cd06a570d4ba4c53.js?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:39:59 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:40:04 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 3046ms (Views: 2548.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:41:34 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 714ms (Views: 234.3ms)
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/assets/mobile_apps.self-5351363b00c831cfae14b3c4402dad66378ed0d40f503da06ba35d52a832a836.js?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:41:35 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:41:36 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2835ms (Views: 2348.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:01 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 673ms (Views: 218.2ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/assets/mobile_apps.self-d7283e593b46cea9b99d87bdea47f33c26e25f68415a361ede0adb9d259905c3.js?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:42:02 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:03 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2740ms (Views: 2297.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:24 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 627ms (Views: 160.2ms)
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:42:24 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:42:24 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:42:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:42:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:42:24 -0700
+
+
+Started GET "/assets/mobile_apps.self-ef76e904adccbe69a92eadf379a9b260debc096013903a20a3aa688e3133fc2f.js?body=1" for ::1 at 2015-10-14 13:42:25 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:42:25 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:26 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2839ms (Views: 2341.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:39 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 586ms (Views: 155.2ms)
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/assets/mobile_apps.self-904b648e38dcea8dfd4de985db908981d3ca49999a6058b068c61e4845bd2bcb.js?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:42:40 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:41 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2960ms (Views: 2383.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:54 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 610ms (Views: 149.4ms)
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/assets/mobile_apps.self-164e76885eceaa779e40abeb19262108f998481914552dddfca2a4ad1f84a829.js?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:42:55 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:42:57 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2907ms (Views: 2436.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:43:15 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 634ms (Views: 158.2ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/assets/mobile_apps.self-ec4eb390d9e09d8e33e28909bafa552dd001d4829d50cabd9725e47b0621f1fd.js?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:43:15 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:43:16 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2712ms (Views: 2205.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:43:31 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 666ms (Views: 166.4ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/assets/mobile_apps.self-1b505d145dc69a4c7adf1ecf73912d3fce341e3e57873d01ac9a2fcebbf6ff73.js?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:43:31 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:43:32 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2687ms (Views: 2186.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:43:53 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 635ms (Views: 157.1ms)
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/assets/mobile_apps.self-11e12cc9be7937a76a0da5e79fff97201d9059186f69aa667ae41c856342d3a8.js?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:43:53 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:43:54 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2697ms (Views: 2248.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:44:13 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 535ms (Views: 160.7ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/assets/mobile_apps.self-6b70b912735340d007a07c178f18842b364b2eecb8198dfb0596285a38015f4d.js?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:44:14 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:44:15 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2656ms (Views: 2155.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:51:50 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 490ms (Views: 26.1ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/assets/mobile_apps.self-6b70b912735340d007a07c178f18842b364b2eecb8198dfb0596285a38015f4d.js?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:51:51 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:51:52 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2620ms (Views: 2162.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-14 13:54:12 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 556ms (Views: 153.9ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/assets/application.self-fd13181089232bc9b9ea8f1fbfb4ccbe1b581bbbeb9d0495f3f416ebcbbb3e81.css?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/assets/mobile_apps.self-7761443cfae6ea7669a77a40c6223b8389d2504d0e0b8898b168f4f725ff3e5e.js?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/assets/application.self-b20f87d441f2446887d949b56f1fef37b73fb93b0966b7c493d7674019225219.js?body=1" for ::1 at 2015-10-14 13:54:13 -0700
+
+
+Started GET "/" for ::1 at 2015-10-14 13:54:14 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 2538ms (Views: 2142.0ms)

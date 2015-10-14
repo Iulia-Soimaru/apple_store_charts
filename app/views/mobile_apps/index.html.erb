@@ -21,32 +21,36 @@
 
     <main>
         <div class="charts-container main-container">
+
+        </div><!--  close .main-container -->
+    </main>
+
+    <footer></footer>
+
+    <script id="renderIndexPage" type="x-handebars-template">
+        {{#each all_apps}}
             <section class="row row-app">
                 <div class="app-number">
                     <span>1</span>
                 </div>
                 <div class="app-info">
                     <div class="image-wrapper">
-                        <img src="" alt="">
+                        <img src="{{app_icon}}" alt="">
                     </div>
                     <div class="info-wrapper">
-                        <h3 class="app-title">Clash of Clans</h3>
-                        <p class="app-category">Games</p>
+                        <h3 class="app-title">{{app_name}}</h3>
+                        <p class="app-category">{{category}}</p>
                         <ul class="app-star-rating list-inline">
-                            <li>*</li>
-                            <li>*</li>
-                            <li>*</li>
-                            <li>*</li>
-                            <li>*</li>
+                            <li>{{rating}}</li>
                         </ul>
-                        <span class="app-count-rating">(5,200)</span>
+                        <span class="app-count-rating">({{country_ratings}})</span>
                     </div>
                 </div>
-                <div class="app-open"></div>
-            </section> <!-- close .row-app -->
-        </div><!--  close .main-container -->
-    </main>
-
-    <footer></footer>
+                <div class="app-open">
+                    <a href="{{app_url}}" target="_blank">{{price}}</a>
+                </div>
+            </section>
+        {{/each}}
+    </script>
 
 </div> <!-- close .top-charts-container -->

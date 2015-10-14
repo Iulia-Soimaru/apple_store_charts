@@ -5,6 +5,16 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'mobile_apps#index'
 
+  # if Rails.env.development?
+  #   app = ActionDispatch::Static.new(
+  #     lambda{ |env| [404, { 'X-Cascade' => 'pass'}, []] },
+  #     Rails.application.config.paths['public'].first,
+  #     Rails.application.config.static_cache_control
+  #   )
+
+  #   mount app, :at => '/', :as => :public
+  # end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
