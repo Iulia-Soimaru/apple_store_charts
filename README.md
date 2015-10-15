@@ -35,7 +35,7 @@ First top 50 apps should be displayed only, and when you scroll to the bottom, i
 ## Technologies used
 
 1. Ruby on Rails
-2. MongoDB, Mongoid (ORM)
+2. MongoDB, Mongoid
 3. Handlebars (to render apps)
 4. CSS animations
 5. Font Awesome (for rating stars)
