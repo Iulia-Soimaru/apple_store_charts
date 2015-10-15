@@ -21,9 +21,9 @@
             </section> <!-- close .header -->
             <section class="row chart-options">
                 <ul class="list-inline list-chart-options text-center">
-                    <li class="col-xs-4 chart-option option-paid">Paid</li>
-                    <li class="col-xs-4 chart-option option-free">Free</li>
-                    <li class="col-xs-4 chart-option option-top-grossing active">Top All</li>
+                    <li class="col-xs-4 chart-option option-paid"><a href="/top_paid">Paid</a></li>
+                    <li class="col-xs-4 chart-option option-free"><a href="/top_free">Free</a></li>
+                    <li class="col-xs-4 chart-option option-all active"><a href="/top_all">Top All</a></li>
                 </ul>
             </section> <!-- close .chart-options -->
         </div> <!-- close .header-container -->
@@ -41,7 +41,7 @@
         {{#each all_apps}}
             <section class="row row-app">
                 <div class="col-xs-1 app-number">
-                    <span>1</span>
+                    <span>{{appNumber @index}}</span>
                 </div>
                 <div class="col-xs-9 app-info">
                     <div class="col-xs-3 image-wrapper">
@@ -50,17 +50,23 @@
                     <div class="col-xs-9 info-wrapper">
                         <h3 class="app-title">{{app_name}}</h3>
                         <p class="app-category">{{category}}</p>
-                        <ul class="col-xs-6 app-star-rating list-inline">
-                            <li>{{rating}}</li>
-                        </ul>
+                        <div class="app-star-rating" value="{{rating}}">
+                            {{{starRating rating}}}
+                        </div>
                         <span class="app-count-rating">({{country_ratings}})</span>
                     </div>
                 </div>
-                <div class="col-xs-2 app-open">
-                    <a href="{{app_url}}" target="_blank">{{price}}</a>
+                <div class="col-xs-2 app-btn">
+                    {{#ifCond price app_url}}
+
+                    {{else}}
+
+                    {{/ifCond}}
                 </div>
             </section>
         {{/each}}
     </script>
+    <!-- <i class="fa fa-star"></i> -->
+    <!-- <i class="fa fa-star-half-o"></i> -->
 
 </div> <!-- close .top-charts-container -->

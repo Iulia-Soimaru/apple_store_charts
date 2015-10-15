@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'mobile_apps#index'
 
+  get 'top_paid' => 'mobile_apps#top_paid'
+  get 'top_free' => 'mobile_apps#top_free'
+  get 'top_all' => 'mobile_apps#top_all'
+
   # if Rails.env.development?
   #   app = ActionDispatch::Static.new(
   #     lambda{ |env| [404, { 'X-Cascade' => 'pass'}, []] },
