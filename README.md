@@ -26,6 +26,30 @@ MobileApp model will be responsible for algorythms that will help us get top pai
 
 First top 50 apps should be displayed only, and when you scroll to the bottom, it should load 50 more apps.
 
+## Changes made while working
+
+- I needed more routs for all (top paid, top free, top all)
+- Controller is responsible for algorythms that will help us get top paid, top free and top all applications, not model as I thought at the beggining
+- I added extra field to database with total downloads, to sort top apps
+
+## Technologies used
+
+1. Ruby on Rails
+2. MongoDB, Mongoid (ORM)
+3. Handlebars (to render apps)
+4. CSS animations
+5. Font Awesome (for rating stars)
+6. Bootstrap (grid system, and alignment classes)
+7. JavaScript (AJAX, jQuery, Handlebars Helpers)
+
+
+## Issues
+
+1. Page is loading too slow, if you wait more than 5 sec, please reload the page manualy
+2. When you start scrolling and meet bottom of the page, sometimes it doesn't load 50 more apps, you need to scroll a little up and then to the bottom again, and it will work
+3. App was tested only on Google Chrome, not sure how it works in other browsers
+
+
 
 
 

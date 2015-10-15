@@ -1,3 +1,6 @@
+// variables for limitDisplayApps function
+var min = 0, max = 50;
+
 var renderInitialPage = function(){
     $.ajax({
         url: 'http://localhost:3000/',
@@ -6,11 +9,11 @@ var renderInitialPage = function(){
     }).done(function(response){
         var context = {};
         context.all_apps = response
-        console.log(response)
         var source = $('#renderIndexPage').html();
         var templatingFunction = Handlebars.compile(source);
-        console.log(context)
         $('.main-container').append(templatingFunction(context));
+        $('.row-app').slice(50).hide();
+        min = 0, max = 50;
         $('.white-overlay').hide();
         $('.spinner').hide();
     });
@@ -20,6 +23,7 @@ var renderTopChart = function(topChart, url){
     $(topChart).on('click', function(evt){
         evt.preventDefault();
         $('.main-container').html('');
+        $('.scroll-up-arrow').hide();
         $('.white-overlay').show();
         $('.spinner').show();
 
@@ -30,16 +34,37 @@ var renderTopChart = function(topChart, url){
         }).done(function(response){
             var context = {};
             context.all_apps = response
-            console.log(response)
             var source = $('#renderIndexPage').html();
             var templatingFunction = Handlebars.compile(source);
-            console.log(context)
             $('.main-container').append(templatingFunction(context));
+            $('.row-app').slice(50).hide();
+            min = 0, max = 50
             $('.white-overlay').hide();
             $('.spinner').hide();
         });
     }); // close topChart.on.click
 }; // close renderTopChart
+
+var limitDisplayApps = function(){
+    $('.row-app').slice(50).hide();
+    $(window).scroll(function () {
+         if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+             $(".row-app").slice(min, max).slideDown(2000);
+
+             min = min + 50;
+             max = max + 50;
+
+         }
+     });
+}; //close limitDisplayApps
+
+var scrollTop = function(){
+    $(".scroll-up-arrow").on('click', function() {
+        $('html, body').animate({ scrollTop: 0 }, "fast");
+
+        return false;
+    });
+}; //close scrollTop
 
 var chartOptionActive = function(){
     $('.chart-option').on('click', function(){
@@ -83,13 +108,16 @@ var displayNonPrice = function(){
     });
 }; // close displayNonPrice
 
-$(document).on('ready', function(){
+$(document).on('page:change', function(){
+
+    scrollTop();
 
     displayRatingStars();
     displayAppNumber();
     displayNonPrice();
 
     renderInitialPage();
+    limitDisplayApps();
     chartOptionActive();
     toggleNavigation();
 
@@ -97,5 +125,11 @@ $(document).on('ready', function(){
     renderTopChart('.option-free', $('.option-free a').attr('href'));
     renderTopChart('.option-all', $('.option-all a').attr('href'));
 
-
 });
+
+$(window).on('scroll', function(){
+    if($(window).scrollTop() >= 250){
+        $('.scroll-up-arrow').show();
+    };
+});
+
