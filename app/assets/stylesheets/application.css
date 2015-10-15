@@ -13,18 +13,131 @@
  *= require_tree .
  *= require_self
  */
+
+.white-overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 10;
+}
+.spinner{
+  position: absolute;
+  top: 40%; left: 45%;
+  margin: auto;
+  z-index: 15;
+  width: 50px;
+  height: 50px;
+  background: #28B688;
+  border-radius: 50%;
+  border: .3em solid transparent;
+  -webkit-animation: glow 1s ease infinite;
+  -moz-animation: glow 1s ease infinite;
+  -o-animation: glow 1s ease infinite;
+  animation: glow 1s ease infinite;
+}
+@-webkit-keyframes glow {
+  0%{
+    box-shadow: 0 0 0 .4em #28B688, 0 0 0 .1em #28B688;
+    -webkit-transform: rotate(360deg);
+  }
+  50%{
+    border-top-color:#605556;
+  }
+  100%{
+    box-shadow: 0 0 0 .4em #28B688, 0 0 0 3.6em transparent;
+  }
+}
+@-moz-keyframes glow {
+  0%{
+    box-shadow:0 0 0 .4em #28B688, 0 0 0 .1em #28B688;
+    -moz-transform:rotate(360deg);
+  }
+  50%{
+    border-top-color:#605556;
+  }
+  100%{
+    box-shadow:0 0 0 .4em #28B688, 0 0 0 3.6em transparent;
+  }
+}
+
 .top-charts-container{
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  background: #FBFBFB;
+  background: #F5F5F5;
 }
 .top-charts-container .row{
   margin: 0 auto;
 }
+.list-header{
+  padding: 20px 0 40px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.nav-toggle {
+  position: relative;
+  margin-left: 60%;
+  cursor: pointer;
+  padding: 10px 35px 10px 0;
+  z-index: 5;
+}
+.nav-toggle span,
+.nav-toggle span:before,
+.nav-toggle span:after {
+  border-radius: 5px;
+  height: 3px;
+  width: 25px;
+  background: #000000;
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.nav-toggle span:before {
+  top: -7px;
+}
+.nav-toggle span:after {
+  bottom: -7px;
+}
+.nav-toggle.active span {
+  background-color: transparent;
+}
+.nav-toggle.active span:before{
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.nav-toggle.active span:after{
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.navigation{
+  position: absolute;
+  width: 100%;
+  height: 230px;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  background: white;
+  color: #28B688;
+  z-index: 1;
+  display: none;
+}
+.navigation-option{
+  list-style: none;
+  padding: 10px 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
 .chart-options{
   width: 80%;
-  border: 1px solid blue;
+  border: 1px solid #28B688;
   border-radius: 5px;
 }
 .list-chart-options{
@@ -32,10 +145,46 @@
 }
 .chart-option{
   padding: 10px;
+  cursor: pointer;
+}
+.chart-option.active{
+  background: #28B688;
+  color: white;
 }
 .chart-option:first-child, .chart-option:nth-child(2){
-  border-right: 1px solid blue;
+  border-right: 1px solid #28B688;
 }
 .row-app{
   border-bottom: 1px solid lightgrey;
+  padding: 20px 0;
+}
+.app-number{
+  line-height: 90px;
+  position: relative;
+  left: 10px;
+  font-size: 1.3em;
+}
+.app-info{
+  padding: 0;
+}
+.app-open{
+  line-height: 90px;
+}
+.image-wrapper img{
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+}
+.info-wrapper{
+  font-size: 0.8em;
+  position: relative;
+  top: -15px;
+  left: 20px;
+}
+.info-wrapper .app-title{
+  font-size: 1.4em;
+}
+.info-wrapper .app-category,
+.info-wrapper .app-count-rating{
+  color: grey;
 }

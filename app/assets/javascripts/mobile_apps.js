@@ -1,8 +1,4 @@
-alert('Hello');
-$(document).on('ready', function(){
-
-    console.log('ready')
-    ///// RENDER PAGE \\\\\
+var renderInitialPage = function(){
     $.ajax({
         url: 'http://localhost:3000/',
         type: 'GET',
@@ -16,5 +12,29 @@ $(document).on('ready', function(){
         console.log(context)
         // context.questions = response;
         $('.main-container').append(templatingFunction(context));
+        $('.white-overlay').hide();
+        $('.spinner').hide();
     });
+}; //close renderInitialPage
+
+var chartOptionActive = function(){
+    $('.chart-option').on('click', function(){
+        $('.chart-option').removeClass('active');
+        $(this).addClass('active');
+    });
+}; //close chartOptionActive
+
+var toggleNavigation = function(){
+    $(".nav-toggle").on("click", function() {
+        $(this).toggleClass("active");
+        $('.navigation').slideToggle('fast');
+    });
+}; //close toggleNavigation
+
+$(document).on('ready', function(){
+
+    renderInitialPage();
+    chartOptionActive();
+    toggleNavigation();
+
 });
