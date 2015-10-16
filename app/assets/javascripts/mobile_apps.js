@@ -3,7 +3,7 @@ var min = 0, max = 50;
 
 var renderInitialPage = function(){
     $.ajax({
-        url: 'http://localhost:3000/',
+        url: '/',
         type: 'GET',
         dataType: 'JSON',
     }).done(function(response){
@@ -114,7 +114,7 @@ var displayRatingStars = function(){
 
 var separateCommaInteger = function(){
     Handlebars.registerHelper('countReviews', function(reviews){
-        // return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     });
 }; // close separateCommaInteger
 
