@@ -25,4 +25,21 @@ class MobileApp
   field :total_revenue, type: Integer
 
 
+  def self.all_apps(counter)
+    MobileApp.all.order_by(:total_downloads => 'desc').limit(50).skip(counter).map {|app| app}
+  end
+
+  def self.paid_apps(counter)
+    MobileApp.all.where(:price.gt => 0).order_by(:total_downloads => 'desc').limit(50).skip(counter).map {|app| app}
+  end
+
+  def self.free_apps(counter)
+    MobileApp.all.where(:price => 0).order_by(:total_downloads => 'desc').limit(50).skip(counter).map {|app| app}
+  end
+
+  def self.grossing_apps(counter)
+    MobileApp.all.order_by(:total_revenue => 'desc').limit(50).skip(counter).map {|app| app}
+  end
+
+
 end

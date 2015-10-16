@@ -1,8 +1,10 @@
 var renderInitialPage = function(){
+
     $.ajax({
         url: '/',
         type: 'GET',
         dataType: 'JSON',
+        data: {offset: offsetCounter}
     }).done(function(response){
         var context = {};
         context.all_apps = response
@@ -14,6 +16,8 @@ var renderInitialPage = function(){
         $('.white-overlay').hide();
         $('.spinner').hide();
     });
+
+
 }; //close renderInitialPage
 
 var renderTopChart = function(topChart, url){
@@ -24,10 +28,13 @@ var renderTopChart = function(topChart, url){
         $('.white-overlay').show();
         $('.spinner').show();
 
+        offsetCounter = 0;
+
         $.ajax({
             url: url,
             type: 'GET',
             dataType: 'JSON',
+            data: {offset: offsetCounter}
         }).done(function(response){
             var context = {};
             context.all_apps = response
@@ -55,17 +62,32 @@ var renderTopChart = function(topChart, url){
 //      });
 // }; //close limitDisplayApps
 
-var counter = 1;
 
 var loadMoreApps = function(){
-    if( $(window).scrollTop() + $(window).height() == $(document).height() && counter < 8){
+    var counter = offsetCounter / 50, url;
 
-        counter++;
+
+
+    if( $(window).scrollTop() + $(window).height() == $(document).height() && counter < 7){
+
+        if($('.option-paid').hasClass('active')){
+            url = '/top_paid';
+        } else if($('.option-free').hasClass('active')){
+            url = '/top_free';
+        } else if($('.option-grossing').hasClass('active')){
+            url = '/top_grossing';
+        } else {
+            url = '/';
+        };
+
+        offsetCounter += 50;
+        console.log(counter)
 
        $.ajax({
-            url: '/',
+            url: url,
             type: 'GET',
             dataType: 'JSON',
+            data: {offset: offsetCounter}
         }).done(function(response){
             var context = {};
             context.all_apps = response
@@ -114,6 +136,8 @@ var chartOptionActive = function(){
     $('.option-all').on('click', function(){
         $('.chart-option').removeClass('active');
     });
+
+    offsetCounter = 0;
 }; //close chartOptionActive
 
 var toggleNavigation = function(){
@@ -150,7 +174,7 @@ var displayIfInAppPurchase = function(){
 
 var displayAppNumber = function(){
     Handlebars.registerHelper('appNumber', function(value){
-        return parseInt(value) + 1;
+        return parseInt(value) + offsetCounter + 1;
     });
 }; //close displayAppNumber
 
@@ -164,6 +188,8 @@ var displayNonPrice = function(){
 }; // close displayNonPrice
 
 $(document).on('page:change', function(){
+
+    offsetCounter = 0;
 
     scrollTop();
 
@@ -180,7 +206,6 @@ $(document).on('page:change', function(){
     renderTopChart('.option-paid', $('.option-paid a').attr('href'));
     renderTopChart('.option-free', $('.option-free a').attr('href'));
     renderTopChart('.option-grossing', $('.option-grossing a').attr('href'));
-    renderTopChart('.option-all', $('.option-all a').attr('href'));
 
 
 });
@@ -189,6 +214,7 @@ $(window).on('scroll', function(){
     if($(window).scrollTop() >= 250){
         $('.scroll-up-arrow').show();
     };
+
     loadMoreApps();
 });
 
