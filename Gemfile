@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #Use Mongoid
 gem 'mongoid', '~> 5.0.0'
-
+gem 'bson_ext', '~>1.5.1'
 gem 'font-awesome-sass'
 
 group :development, :test do
