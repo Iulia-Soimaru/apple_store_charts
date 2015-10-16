@@ -11213,3 +11213,480 @@ Completed 200 OK in 7734ms (Views: 6524.1ms)
 Started GET "/" for ::1 at 2015-10-16 02:34:17 -0700
 Processing by MobileAppsController#index as JSON
 Completed 200 OK in 2641ms (Views: 2222.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:38:02 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2044ms (Views: 1939.3ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/assets/mobile_apps.self-dd9db16fd4d37127e5d8fac0023e8ab233b553b51526dca124492c2fae6c26a4.js?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:38:04 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:38:04 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 78ms (Views: 36.0ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:38:16 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 1602ms (Views: 1313.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:38:34 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 52ms (Views: 22.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:43:05 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 26.8ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/assets/mobile_apps.self-dd9db16fd4d37127e5d8fac0023e8ab233b553b51526dca124492c2fae6c26a4.js?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:43:05 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:43:06 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 63ms (Views: 24.4ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:44:39 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 41ms (Views: 17.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:47:58 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 220ms (Views: 191.1ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/assets/mobile_apps.self-688e9e34519731d671495b2be51503624443b9663935401ccb9f9536ce903e19.js?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:47:59 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:47:59 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 69ms (Views: 31.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:16 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 219ms (Views: 192.2ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/assets/mobile_apps.self-222da5b95b38b585116aade4c471eeada37d1172e08bde52aad33150ccb8a591.js?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:48:16 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:16 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 65ms (Views: 35.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:16 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 77ms (Views: 29.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:30 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 23.4ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/assets/mobile_apps.self-222da5b95b38b585116aade4c471eeada37d1172e08bde52aad33150ccb8a591.js?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:48:30 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:30 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 61ms (Views: 30.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:30 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 83ms (Views: 39.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:52 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 224ms (Views: 199.7ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/assets/mobile_apps.self-4f0db18069c54ddbf4279b43463ab674c3893ebfb06747d7c2ceeca33610642a.js?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:48:53 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:48:53 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 56ms (Views: 26.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:49:09 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 268ms (Views: 191.8ms)
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/assets/mobile_apps.self-4fd5a54b93549c0267e3d6027f6ca9100c9464c24f1f4516df58f99b8c5cbc70.js?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:49:10 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:49:10 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 55ms (Views: 25.6ms)
+
+
+Started GET "/top_paid" for ::1 at 2015-10-16 02:49:22 -0700
+Processing by MobileAppsController#top_paid as JSON
+Completed 200 OK in 56ms (Views: 30.0ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:49:27 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 40ms (Views: 17.2ms)
+
+
+Started GET "/top_grossing" for ::1 at 2015-10-16 02:49:33 -0700
+Processing by MobileAppsController#top_grossing as JSON
+Completed 200 OK in 105ms (Views: 78.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:49:35 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 46ms (Views: 17.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:41 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 222ms (Views: 196.3ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/assets/mobile_apps.self-d03b9fb9cdf712fc77290608d21ab830a108c5010f242769021163be56f65cb9.js?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:50:42 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:42 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 57ms (Views: 28.5ms)
+
+
+Started GET "/top_grossing" for ::1 at 2015-10-16 02:50:43 -0700
+Processing by MobileAppsController#top_grossing as JSON
+Completed 200 OK in 119ms (Views: 88.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:44 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 46ms (Views: 18.2ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:50:46 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 39ms (Views: 18.0ms)
+
+
+Started GET "/top_grossing" for ::1 at 2015-10-16 02:50:46 -0700
+Processing by MobileAppsController#top_grossing as JSON
+Completed 200 OK in 44ms (Views: 17.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:47 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 62ms (Views: 21.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:49 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 106ms (Views: 79.3ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:50:53 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 42ms (Views: 19.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:55 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 73ms (Views: 31.5ms)
+
+
+Started GET "/top_paid" for ::1 at 2015-10-16 02:50:56 -0700
+Processing by MobileAppsController#top_paid as JSON
+Completed 200 OK in 35ms (Views: 17.8ms)
+
+
+Started GET "/top_grossing" for ::1 at 2015-10-16 02:50:57 -0700
+Processing by MobileAppsController#top_grossing as JSON
+Completed 200 OK in 69ms (Views: 21.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:50:59 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 45ms (Views: 18.2ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:51:12 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 40ms (Views: 17.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:51:17 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 43ms (Views: 17.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:51:24 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 108ms (Views: 75.2ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/assets/mobile_apps.self-d03b9fb9cdf712fc77290608d21ab830a108c5010f242769021163be56f65cb9.js?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:51:24 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:51:24 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 79ms (Views: 37.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:51:26 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 45ms (Views: 19.1ms)
+
+
+Started GET "/top_free" for ::1 at 2015-10-16 02:51:27 -0700
+Processing by MobileAppsController#top_free as JSON
+Completed 200 OK in 38ms (Views: 17.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 02:51:33 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 28.6ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/assets/mobile_apps.self-d03b9fb9cdf712fc77290608d21ab830a108c5010f242769021163be56f65cb9.js?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 02:51:33 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 02:51:34 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 68ms (Views: 29.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-16 03:54:35 -0700
+Processing by MobileAppsController#index as HTML
+  Rendered mobile_apps/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 552ms (Views: 503.7ms)
+
+
+Started GET "/assets/mobile_apps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-16 03:54:35 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-16 03:54:35 -0700
+
+
+Started GET "/assets/application.self-a48c102548beec7aa8a38ede772b24b0acf3b4a6112263f64ba681d1c5182a50.css?body=1" for ::1 at 2015-10-16 03:54:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-10-16 03:54:35 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-16 03:54:35 -0700
+
+
+Started GET "/assets/mobile_apps.self-ec65c9cfca974b39a4119f7e49c80a553cd4f8615eaeef954ed7e4f679e208a3.js?body=1" for ::1 at 2015-10-16 03:54:36 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-16 03:54:36 -0700
+
+
+Started GET "/" for ::1 at 2015-10-16 03:54:36 -0700
+Processing by MobileAppsController#index as JSON
+Completed 200 OK in 61ms (Views: 30.5ms)
+
+
+Started GET "/top_grossing" for ::1 at 2015-10-16 03:54:43 -0700
+Processing by MobileAppsController#top_grossing as JSON
+Completed 200 OK in 47ms (Views: 19.4ms)

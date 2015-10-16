@@ -1,6 +1,3 @@
-// variables for limitDisplayApps function
-var min = 0, max = 50;
-
 var renderInitialPage = function(){
     $.ajax({
         url: '/',
@@ -14,8 +11,6 @@ var renderInitialPage = function(){
         $('.main-container').append(templatingFunction(context));
         cutLongAppName();
         separateCommaInteger();
-        $('.row-app').slice(50).hide();
-        min = 0, max = 50;
         $('.white-overlay').hide();
         $('.spinner').hide();
     });
@@ -41,26 +36,30 @@ var renderTopChart = function(topChart, url){
             $('.main-container').append(templatingFunction(context));
             cutLongAppName();
             separateCommaInteger();
-            $('.row-app').slice(50).hide();
-            min = 0, max = 50
             $('.white-overlay').hide();
             $('.spinner').hide();
         });
     }); // close topChart.on.click
 }; // close renderTopChart
 
-var limitDisplayApps = function(){
-    $('.row-app').slice(50).hide();
-    $(window).scroll(function () {
-         if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
-             $(".row-app").slice(min, max).slideDown(2000);
+// var limitDisplayApps = function(){
+//     $('.row-app').slice(50).hide();
+//     $(window).scroll(function () {
+//          if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+//              $(".row-app").slice(min, max).slideDown(2000);
 
-             min = min + 50;
-             max = max + 50;
+//              min = min + 50;
+//              max = max + 50;
 
-         }
-     });
-}; //close limitDisplayApps
+//          }
+//      });
+// }; //close limitDisplayApps
+
+var loadMoreApps = function(){
+    if($(window).scrollTop() + $(window).height() == $(document).height()){
+
+    }
+}; // close loadMoreApps
 
 
 var cutLongAppName = function(){
@@ -84,7 +83,7 @@ var scrollTop = function(){
 
 var separateCommaInteger = function(){
     Handlebars.registerHelper('countReviews', function(reviews){
-        // return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     });
 }; // close separateCommaInteger
 
@@ -92,6 +91,10 @@ var chartOptionActive = function(){
     $('.chart-option').on('click', function(){
         $('.chart-option').removeClass('active');
         $(this).addClass('active');
+    });
+
+    $('.option-all').on('click', function(){
+        $('.chart-option').removeClass('active');
     });
 }; //close chartOptionActive
 
@@ -153,7 +156,6 @@ $(document).on('page:change', function(){
     displayIfInAppPurchase();
 
     renderInitialPage();
-    limitDisplayApps();
     chartOptionActive();
     toggleNavigation();
 
@@ -161,6 +163,8 @@ $(document).on('page:change', function(){
     renderTopChart('.option-free', $('.option-free a').attr('href'));
     renderTopChart('.option-grossing', $('.option-grossing a').attr('href'));
     renderTopChart('.option-all', $('.option-all a').attr('href'));
+
+    // loadMoreApps();
 
 });
 

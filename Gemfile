@@ -35,6 +35,8 @@ gem 'mongoid', '~> 5.0.0'
 gem 'bson_ext', '~>1.5.1'
 gem 'font-awesome-sass'
 
+gem 'will_paginate', '~> 3.0.7'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
