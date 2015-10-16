@@ -114,7 +114,7 @@ var displayRatingStars = function(){
 
 var separateCommaInteger = function(){
     Handlebars.registerHelper('countReviews', function(reviews){
-        return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        // return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     });
 }; // close separateCommaInteger
 

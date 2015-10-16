@@ -1,3 +1,14 @@
+production:
+  sessions:
+    default:
+      uri: <%= ENV['MONGO_URI'] %>
+      options:
+        max_retries: 30
+        retry_interval: 1
+        timeout: 15
+        refresh_interval: 10
+        # safe: true
+        # skip_version_check: true
 development:
   # Configure available database clients. (required)
   clients:
@@ -135,14 +146,3 @@ test:
         max_pool_size: 1
 
 
-production:
-  sessions:
-    default:
-      uri: <%= ENV['MONGO_URI'] %>
-      options:
-        max_retries: 30
-        retry_interval: 1
-        timeout: 15
-        refresh_interval: 10
-        # safe: true
-        # skip_version_check: true
