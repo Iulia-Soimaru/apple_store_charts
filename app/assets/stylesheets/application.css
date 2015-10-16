@@ -207,6 +207,7 @@
 .app-title{
   font-size: 1.4em;
 }
+.app-company,
 .app-category,
 .app-count-rating{
   color: grey;
