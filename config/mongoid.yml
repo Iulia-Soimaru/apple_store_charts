@@ -138,7 +138,7 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] %>
+      uri: <%= ENV['MONGO_URI'] %>
       options:
         safe: true
         skip_version_check: true
