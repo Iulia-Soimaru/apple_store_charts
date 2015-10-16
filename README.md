@@ -50,6 +50,10 @@ First top 50 apps should be displayed only, and when you scroll to the bottom, i
 3. App was tested only on Google Chrome, not sure how it works in other browsers
 
 
+## Heroku link
+
+[heroku_app_store_charts](https://shielded-escarpment-3039.herokuapp.com/)
+
 
 
 

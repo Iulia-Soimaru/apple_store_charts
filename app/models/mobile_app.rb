@@ -24,4 +24,5 @@ class MobileApp
   field :total_downloads, type: Integer
   field :total_revenue, type: Integer
 
+
 end

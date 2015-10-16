@@ -55,10 +55,28 @@ var renderTopChart = function(topChart, url){
 //      });
 // }; //close limitDisplayApps
 
-var loadMoreApps = function(){
-    if($(window).scrollTop() + $(window).height() == $(document).height()){
+var counter = 1;
 
-    }
+var loadMoreApps = function(){
+    if( $(window).scrollTop() + $(window).height() == $(document).height() && counter < 8){
+
+        counter++;
+
+       $.ajax({
+            url: '/',
+            type: 'GET',
+            dataType: 'JSON',
+        }).done(function(response){
+            var context = {};
+            context.all_apps = response
+            var source = $('#renderIndexPage').html();
+            var templatingFunction = Handlebars.compile(source);
+            $('.main-container').append(templatingFunction(context));
+            displayAppNumber();
+            cutLongAppName();
+            separateCommaInteger();
+        });
+    };
 }; // close loadMoreApps
 
 
@@ -164,7 +182,6 @@ $(document).on('page:change', function(){
     renderTopChart('.option-grossing', $('.option-grossing a').attr('href'));
     renderTopChart('.option-all', $('.option-all a').attr('href'));
 
-    // loadMoreApps();
 
 });
 
@@ -172,5 +189,6 @@ $(window).on('scroll', function(){
     if($(window).scrollTop() >= 250){
         $('.scroll-up-arrow').show();
     };
+    loadMoreApps();
 });
 

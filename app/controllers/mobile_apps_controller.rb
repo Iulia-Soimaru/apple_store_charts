@@ -1,6 +1,6 @@
 class MobileAppsController < ApplicationController
+
   def index
-    # limit(50).offset
     @apps = MobileApp.all.order_by(:total_downloads => 'desc').limit(50).map {|app| app}
     respond_to do |format|
       format.html
