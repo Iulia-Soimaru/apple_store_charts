@@ -85,10 +85,13 @@ var displayRatingStars = function(){
         var totalRating = '';
         var star = '<i class="fa fa-star fa-1"></i>';
         var halfStar = '<i class="fa fa-star-half-o fa-1"></i>';
+        var emptyStar = '<i class="fa fa-star-o"></i>';
         for(var i=0; i < Math.floor(rating); i++)
             totalRating += star;
         if(rating % 1 != 0)
-            totalRating += halfStar
+            totalRating += halfStar;
+        for(var i=0; i < ( 5 - Math.ceil(rating) ); i++)
+            totalRating += emptyStar;
         return totalRating
     });
 }; // close displayRatingStars
