@@ -12,6 +12,8 @@ var renderInitialPage = function(){
         var source = $('#renderIndexPage').html();
         var templatingFunction = Handlebars.compile(source);
         $('.main-container').append(templatingFunction(context));
+        cutLongAppName();
+        separateCommaInteger();
         $('.row-app').slice(50).hide();
         min = 0, max = 50;
         $('.white-overlay').hide();
@@ -37,6 +39,8 @@ var renderTopChart = function(topChart, url){
             var source = $('#renderIndexPage').html();
             var templatingFunction = Handlebars.compile(source);
             $('.main-container').append(templatingFunction(context));
+            cutLongAppName();
+            separateCommaInteger();
             $('.row-app').slice(50).hide();
             min = 0, max = 50
             $('.white-overlay').hide();
@@ -57,6 +61,18 @@ var limitDisplayApps = function(){
          }
      });
 }; //close limitDisplayApps
+
+
+var cutLongAppName = function(){
+    var length = 35, limit = 32;
+    $('.app-title').each(function(index, element){
+        if( $(element).text().length >= length ){
+            var text = ( ($(element).text()) ).substr(0, limit);
+            $(element).text(text + '...');
+        };
+    });
+}; //close cutLongAppName function
+
 
 var scrollTop = function(){
     $(".scroll-up-arrow").on('click', function() {
@@ -96,6 +112,12 @@ var displayRatingStars = function(){
     });
 }; // close displayRatingStars
 
+var separateCommaInteger = function(){
+    Handlebars.registerHelper('countReviews', function(reviews){
+        return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    });
+}; // close separateCommaInteger
+
 var displayAppNumber = function(){
     Handlebars.registerHelper('appNumber', function(value){
         return parseInt(value) + 1;
@@ -118,6 +140,7 @@ $(document).on('page:change', function(){
     displayRatingStars();
     displayAppNumber();
     displayNonPrice();
+    separateCommaInteger();
 
     renderInitialPage();
     limitDisplayApps();
