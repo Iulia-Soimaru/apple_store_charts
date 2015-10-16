@@ -165,6 +165,9 @@
   border-bottom: 1px solid lightgrey;
   padding: 20px 0;
 }
+.row-app:hover{
+  background: #EEEEEE;
+}
 .app-number{
   line-height: 90px;
   position: relative;

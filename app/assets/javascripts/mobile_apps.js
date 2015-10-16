@@ -118,6 +118,14 @@ var separateCommaInteger = function(){
     });
 }; // close separateCommaInteger
 
+
+var displayIfInAppStore = function(){
+    Handlebars.registerHelper('inAppStore', function(exists){
+        if(exists)
+            return 'Available in App Store'
+    });
+}
+
 var displayAppNumber = function(){
     Handlebars.registerHelper('appNumber', function(value){
         return parseInt(value) + 1;
