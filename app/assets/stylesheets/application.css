@@ -148,7 +148,6 @@
   cursor: pointer;
 }
 .chart-option a{
-  padding: 15px 50px;
   color: #28B688;
   text-decoration: none;
 }
@@ -223,6 +222,11 @@
 }
 .app-count-rating{
   padding: 0 0 0 15px;
+}
+.app-purchase{
+  font-size: 0.8em;
+  color: grey;
+  text-align: center;
 }
 .fa{
   font-size: 1.5em;

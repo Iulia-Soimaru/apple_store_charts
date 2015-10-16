@@ -24,11 +24,11 @@ class MobileAppsController < ApplicationController
     end
   end
 
-  def top_all
-    @all_apps = MobileApp.all.order_by(:total_downloads => 'desc').map {|app| app}
+  def top_grossing
+    @grossing_apps = MobileApp.all.order_by(:total_revenue => 'desc').map {|app| app}
     respond_to do |format|
       format.html
-      format.json {render :json => @all_apps}
+      format.json {render :json => @grossing_apps}
     end
   end
 end

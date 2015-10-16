@@ -22,5 +22,6 @@ class MobileApp
   field :iphone_revenue, type: String
   field :ipad_revenue, type: String
   field :total_downloads, type: Integer
+  field :total_revenue, type: Integer
 
 end

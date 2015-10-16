@@ -7,7 +7,7 @@
             <section class="row header">
                 <ul class="list-inline text-center list-header">
                     <li class="col-xs-4">Categories</li>
-                    <li class="col-xs-4">Top Charts</li>
+                    <li class="col-xs-4 option-all"><a href="/">Top Charts</a></li>
                     <li class="col-xs-4">
                         <div class="nav-toggle"><span></span></div>
                     </li>
@@ -23,7 +23,7 @@
                 <ul class="list-inline list-chart-options text-center">
                     <li class="col-xs-4 chart-option option-paid"><a href="/top_paid">Paid</a></li>
                     <li class="col-xs-4 chart-option option-free"><a href="/top_free">Free</a></li>
-                    <li class="col-xs-4 chart-option option-all active"><a href="/top_all">Top All</a></li>
+                    <li class="col-xs-4 chart-option option-grossing"><a href="/top_grossing">Top Grossing</a></li>
                 </ul>
             </section> <!-- close .chart-options -->
         </div> <!-- close .header-container -->
@@ -62,6 +62,7 @@
 
                     {{/ifCond}}
                 </div>
+                <span class="app-purchase">{{inAppPurchase in_app_purchases}}</span>
             </section>
         {{/each}}
     </script>

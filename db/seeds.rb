@@ -29,6 +29,7 @@ CSV.foreach('category-rankings.csv', :headers => true, header_converters: :symbo
   object[:iphone_revenue] = object[:iphone_revenue] ? object[:iphone_revenue].gsub!('$', '').gsub(',', '').to_f : 0
   object[:ipad_revenue] = object[:ipad_revenue] ? object[:ipad_revenue].gsub!('$', '').gsub(',', '').to_f : 0
   object[:total_downloads] = object[:iphone_downloads] + object[:ipad_downloads]
+  object[:total_revenue] = object[:iphone_revenue] + object[:ipad_revenue]
 
   if !(MobileApp.all.where(:app_id => object[:app_id]).present?)
     MobileApp.create(object)

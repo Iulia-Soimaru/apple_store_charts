@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'top_paid' => 'mobile_apps#top_paid'
   get 'top_free' => 'mobile_apps#top_free'
-  get 'top_all' => 'mobile_apps#top_all'
+  get 'top_grossing' => 'mobile_apps#top_grossing'
 
   # if Rails.env.development?
   #   app = ActionDispatch::Static.new(

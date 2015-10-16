@@ -82,6 +82,12 @@ var scrollTop = function(){
     });
 }; //close scrollTop
 
+var separateCommaInteger = function(){
+    Handlebars.registerHelper('countReviews', function(reviews){
+        // return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    });
+}; // close separateCommaInteger
+
 var chartOptionActive = function(){
     $('.chart-option').on('click', function(){
         $('.chart-option').removeClass('active');
@@ -112,19 +118,14 @@ var displayRatingStars = function(){
     });
 }; // close displayRatingStars
 
-var separateCommaInteger = function(){
-    Handlebars.registerHelper('countReviews', function(reviews){
-        // return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    });
-}; // close separateCommaInteger
 
-
-var displayIfInAppStore = function(){
-    Handlebars.registerHelper('inAppStore', function(exists){
+var displayIfInAppPurchase = function(){
+    Handlebars.registerHelper('inAppPurchase', function(exists){
         if(exists)
-            return 'Available in App Store'
+            return 'Available in App Purchase'
     });
-}
+}; //displayIfInAppStore
+
 
 var displayAppNumber = function(){
     Handlebars.registerHelper('appNumber', function(value){
@@ -149,6 +150,7 @@ $(document).on('page:change', function(){
     displayAppNumber();
     displayNonPrice();
     separateCommaInteger();
+    displayIfInAppPurchase();
 
     renderInitialPage();
     limitDisplayApps();
@@ -157,6 +159,7 @@ $(document).on('page:change', function(){
 
     renderTopChart('.option-paid', $('.option-paid a').attr('href'));
     renderTopChart('.option-free', $('.option-free a').attr('href'));
+    renderTopChart('.option-grossing', $('.option-grossing a').attr('href'));
     renderTopChart('.option-all', $('.option-all a').attr('href'));
 
 });
