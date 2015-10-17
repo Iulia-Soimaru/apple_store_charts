@@ -61,22 +61,38 @@ First top 50 apps should be displayed only, and when you scroll to the bottom, i
 2. In your account in "MongoDB Deployments" click on "Create new" (to create database there)
 3. In Mongolab click on your database and "Add database user", there you will create username and password, it can be whatever you want
 4. Create heroku
+  ```
     heroku create
+  ```
 5. Add remote
+  ```
     git remote add heroku
+  ```
 6. In Mongolab click on database and find URI
+  ```
     mongodb://<dbuser>:<dbpassword>@ds039674.mongolab.com:39674/apple_store_charts_db
+  ```
 7. Go to your Heroku account, find your app, and in Settings find "Reveal Config Vars", create config var like:
+  ```
     MONGOLAB_URI
+  ```
 and then copy your URI in the second input, with your user name and password
+  ```
     mongodb://<dbuser>:<dbpassword>@ds039674.mongolab.com:39674/apple_store_charts_db
+  ```
 then click "Add"
 8. Check if you have any unstaged/uncommited files
+  ```
     git status
+  ```
 9. If necessary
+  ```
     git add, git commit
+  ```
 10. Push code to heroku
+  ```
     git push heroku master
+  ```
 
 If you are using Mongoid 5, make sure in your mongoid.yml file where you have production: instead of "sessions:" should be "clients:" otherwise it won't work.
 
