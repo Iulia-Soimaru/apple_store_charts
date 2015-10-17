@@ -187,10 +187,11 @@ var displayNonPrice = function(){
     });
 }; // close displayNonPrice
 
-$(document).on('page:change', function(){
+$(document).on('ready', function(){
     console.log('here')
 
     offsetCounter = 0;
+    renderInitialPage();
 
     scrollTop();
 
@@ -200,7 +201,6 @@ $(document).on('page:change', function(){
     separateCommaInteger();
     displayIfInAppPurchase();
 
-    renderInitialPage();
     chartOptionActive();
     toggleNavigation();
 
