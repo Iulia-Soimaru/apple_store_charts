@@ -188,6 +188,7 @@ var displayNonPrice = function(){
 }; // close displayNonPrice
 
 $(document).on('page:change', function(){
+    console.log('here')
 
     offsetCounter = 0;
 
